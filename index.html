@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artel</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/magnific-popup.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="home section" id="home">
+        <div class="home__inner">
+          <button class="theme-mode"></button>
+          <header class="header__inner">
+            <div class="container-max">
+              <div class="header">
+                <div class="logo">
+                  <a href="#">artel <span>;</span></a>
+                </div>
+                <nav class="menu__nav">
+                  <ul class="menu__list">
+                    <li class="menu__nav-list">
+                      <a class="menu__nav-link active" href="#home">Главная</a>
+                    </li>
+                    <li class="menu__nav-list">
+                      <a class="menu__nav-link" href="#work">Наши работы</a>
+                    </li>
+                    <li class="menu__nav-list">
+                      <a class="menu__nav-link" href="#price">Цены</a>
+                    </li>
+                    <li class="menu__nav-list">
+                      <a class="menu__nav-link" href="#contacts">Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="header__phone">
+                  <a class="tel" href="tel:+74993467554"
+                    ><div class="call-svg">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.84298 4.3922C7.84298 4.39234 7.8428 4.3924 7.84271 4.3923L5.13674 1.26879C4.82476 0.908811 4.25279 0.910411 3.89041 1.27359L1.66495 3.50306C1.00259 4.16622 0.812997 5.15096 1.19617 5.94051C3.48533 10.6802 7.30784 14.5081 12.0443 16.8039C12.8331 17.187 13.817 16.9974 14.4794 16.3343L16.7256 14.084C17.0896 13.72 17.0904 13.1449 16.7272 12.8329L13.5914 10.1411C13.2635 9.85947 12.7539 9.89627 12.4251 10.2259L11.334 11.3186C11.2781 11.3771 11.2046 11.4157 11.1247 11.4284C11.0447 11.4412 10.9629 11.4273 10.8916 11.389C9.10806 10.3619 7.62858 8.88052 6.60385 7.09564C6.56547 7.02425 6.55158 6.94223 6.56429 6.86218C6.57701 6.78213 6.61564 6.70846 6.67425 6.65247L7.76218 5.56373C8.09166 5.23265 8.12774 4.7209 7.84324 4.39211C7.84315 4.392 7.84298 4.39206 7.84298 4.3922V4.3922Z"
+                          stroke="white"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg></div
+                  ></a>
+
+                  <a class="tel-link" href="tel:+74993467554"
+                    >+7 (499) 346-75-54</a
+                  >
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="home__wrap-content">
+            <div class="home-bg">
+              <img src="./img/bg-home.png" alt="" />
+            </div>
+            <div class="home-bg home-bg--dark">
+              <img src="./img/bg-home-dark.png" alt="" />
+            </div>
+            <div class="home__content-inner">
+              <div class="home__box-inner">
+                <h1 class="home__content-title">
+                  Нужен Дизайн <br />
+                  <span
+                    >Мобильного <br />
+                    Приложения?</span
+                  >
+                </h1>
+
+                <div class="home__content-text">
+                  Реализуем ваши идеи в дизайне
+                </div>
+                <div class="home__content-btn">
+                  <div class="star-svg">
+                    <svg
+                      width="14"
+                      height="13"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.04332 0.822024L8.41069 3.29128C8.61748 3.66472 8.97359 3.93236 9.38981 4.02716L12.1212 4.64928C12.4871 4.73263 12.6342 5.17446 12.3912 5.46051L10.4772 7.71366C10.2146 8.02271 10.0884 8.42489 10.1272 8.82853L10.4117 11.7832C10.4487 12.1677 10.0542 12.4472 9.7037 12.2847L7.2367 11.1413C6.83662 10.9558 6.37521 10.9558 5.97513 11.1413L3.50812 12.2847C3.15762 12.4472 2.76315 12.1677 2.80016 11.7832L3.08458 8.82853C3.12344 8.42489 2.99721 8.02271 2.73467 7.71366L0.820608 5.46051C0.577609 5.17446 0.724674 4.73263 1.09063 4.64928L3.82202 4.02716C4.23823 3.93236 4.59434 3.66472 4.80114 3.29128L6.1685 0.822024C6.35883 0.478317 6.85299 0.478317 7.04332 0.822024Z"
+                        stroke="#090909"
+                      />
+                    </svg>
+                  </div>
+                  <a class="popup-modal" href="#form-modal">Хочу дизайн</a>
+                </div>
+              </div>
+            </div>
+            <form id="form-modal" class="mfp-hide white-popup-block">
+              <h1 class="form__title">Оставьте заявку</h1>
+              <div class="form__box">
+                <div class="form__item">
+                  <p class="form__text">Ваш номер телефона</p>
+                  <input
+                    class="form__mask"
+                    type="tel"
+                    placeholder="+7 (___) ___ - __ - __"
+                  />
+                </div>
+                <div class="form__item">
+                  <p class="form__text">Удобное время для звонка</p>
+
+                  <input
+                    id="eITDbegintime"
+                    type="text"
+                    placeholder="00:00 (По Мск)"
+                  />
+                </div>
+              </div>
+              <div class="form__textarea">
+                <p class="form__text">Опишите Ваш проект</p>
+                <textarea></textarea>
+              </div>
+              <div class="form__box-btn">
+                <p><a class="popup-modal-dismiss" href="#">Отменить</a></p>
+                <button class="form__btn" type="submit">Отправить</button>
+              </div>
+            </form>
+
+            <!-- <a href="#work"><span class="scroll"></span></a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="work">
+        <div class="container">
+          <div class="portfolio__box-count">
+            <div class="portfolio__slider">
+              <div class="portfolio__wrap slider-item">
+                <h1
+                  class="portfolio__title wow animate__fadeInUp"
+                  data-wow-duration="1.5s"
+                >
+                  Делаем
+                  <span class="wow animate__fadeInUp" data-wow-duration="2s"
+                    >Вот Так</span
+                  >
+                </h1>
+                <div class="portfolio__inner">
+                  <div class="portfolio__descr">
+                    <div
+                      class="descr__title wow animate__fadeInUp"
+                      data-wow-duration="1s"
+                    >
+                      Monetify
+                    </div>
+                    <div class="descr__tags">
+                      <div
+                        class="descr__tag wow animate__fadeInUp"
+                        data-wow-duration="1s"
+                      >
+                        Мобильное приложение
+                      </div>
+                      <div
+                        class="descr__tag wow animate__fadeInUp"
+                        data-wow-duration="1.5s"
+                      >
+                        UI/UX
+                      </div>
+                      <div
+                        class="descr__tag wow animate__fadeInUp"
+                        data-wow-duration="2s"
+                      >
+                        Figma
+                      </div>
+                    </div>
+                    <div
+                      class="descr__text wow animate__fadeInUp"
+                      data-wow-duration="2s"
+                    >
+                      <p>
+                        Приложение разработано для управления своими доходами,
+                        расходами и счетами, помогает ставить и достигать
+                        финансовые цели.
+                      </p>
+                      <p>
+                        Для удобства пользователя в Monetify встроены голосовой
+                        ввод, сканер чеков и система распознавания СМС от
+                        банков.
+                      </p>
+                    </div>
+                    <!-- <a class="descr__link" href="#">Смотреть кейс</a> -->
+                  </div>
+
+                  <div class="wrap-img">
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--left
+                        wow
+                        animate__zoomIn
+                      "
+                      data-wow-duration="2s"
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/coins-monetify-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+                        <img
+                          class="coins-m"
+                          src="/img/coins-monetify.png"
+                          alt=""
+                        />
+                      </picture>
+                    </div>
+                    <div
+                      class="portfolio__img-inner wow animate__zoomIn"
+                      data-wow-duration="2s"
+                    >
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page1"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/monetify-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/monetify-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/monetify.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page2"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/monetify1-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/monetify1-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/monetify1.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page3"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/monetify2-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/monetify2-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/monetify2.png" alt="" />
+                        </picture>
+                      </div>
+                    </div>
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--right
+                        wow
+                        animate__zoomIn
+                      "
+                      data-wow-duration="2s"
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/pay-monetify-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+                        <img
+                          class="pay-m"
+                          src="./img/pay-monetify.png"
+                          alt=""
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio__wrap slider-item">
+                <div class="portfolio__title">
+                  Делаем
+                  <span>Вот Так</span>
+                </div>
+                <div class="portfolio__inner">
+                  <div class="portfolio__descr">
+                    <div class="descr__title">Trainer’s notes</div>
+                    <div class="descr__tags">
+                      <div class="descr__tag">Мобильное приложение</div>
+                      <div class="descr__tag">UI/UX</div>
+                      <div class="descr__tag">Figma</div>
+                    </div>
+                    <div class="descr__text">
+                      <p>
+                        Приложение разработано для управления своими доходами,
+                        расходами и счетами, помогает ставить и достигать
+                        финансовые цели.
+                      </p>
+                      <p>
+                        Для удобства пользователя в Monetify встроены голосовой
+                        ввод, сканер чеков и система распознавания СМС от
+                        банков.
+                      </p>
+                    </div>
+                    <!-- <a class="descr__link" href="#">Смотреть кейс</a> -->
+                  </div>
+                  <div class="wrap-img">
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--left-notes
+                      "
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/notes-left-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+                        <img class="kubok" src="./img/notes-left.png" alt="" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__img-inner">
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page1"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/notes-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/notes-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/notes.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page2"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/notes1-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/notes1-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/notes1.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page3"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/notes2-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/notes2-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="/img/notes2.png" alt="" />
+                        </picture>
+                      </div>
+                    </div>
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--right-notes
+                      "
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/notes-right-m.png"
+                          type="image/png"
+                          media="(max-width: 450px)"
+                        />
+                        <source
+                          srcset="/img/notes-right-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+                        <img class="tir" src="./img/notes-right.png" alt="" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio__wrap slider-item">
+                <div class="portfolio__title">
+                  Делаем
+                  <span>Вот Так</span>
+                </div>
+                <div class="portfolio__inner">
+                  <div class="portfolio__descr">
+                    <div class="descr__title">Мир Кальянов</div>
+                    <div class="descr__tags">
+                      <div class="descr__tag">Мобильное приложение</div>
+                      <div class="descr__tag">UI/UX</div>
+                      <div class="descr__tag">Figma</div>
+                    </div>
+                    <div class="descr__text">
+                      <p>
+                        Приложение разработано для управления своими доходами,
+                        расходами и счетами, помогает ставить и достигать
+                        финансовые цели.
+                      </p>
+                      <p>
+                        Для удобства пользователя в Monetify встроены голосовой
+                        ввод, сканер чеков и система распознавания СМС от
+                        банков.
+                      </p>
+                    </div>
+                    <!-- <a class="descr__link" href="#">Смотреть кейс</a> -->
+                  </div>
+                  <div class="wrap-img">
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--left-kalian
+                      "
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/kalians-left-m.png"
+                          type="image/png"
+                          media="(max-width: 450px)"
+                        />
+                        <source
+                          srcset="/img/kalians-left-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+
+                        <img src="./img/kalians-left.png" alt="" />
+                      </picture>
+                    </div>
+                    <div class="portfolio__img-inner">
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page1"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/kalians-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/kalians-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="./img/kalians.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page2"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/kalians1-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/kalians1-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="./img/kalians1.png" alt="" />
+                        </picture>
+                      </div>
+                      <div
+                        class="portfolio__img-item portfolio__img-item--page3"
+                      >
+                        <picture>
+                          <source
+                            srcset="/img/kalians2-m.png"
+                            type="image/png"
+                            media="(max-width: 450px)"
+                          />
+                          <source
+                            srcset="/img/kalians2-l.png"
+                            type="image/png"
+                            media="(max-width: 700px)"
+                          />
+                          <img src="./img/kalians2.png" alt="" />
+                        </picture>
+                      </div>
+                    </div>
+                    <div
+                      class="
+                        portfolio__img-item portfolio__img-item--right-kalian
+                      "
+                    >
+                      <picture>
+                        <source
+                          srcset="/img/kalians-right-m.png"
+                          type="image/png"
+                          media="(max-width: 450px)"
+                        />
+                        <source
+                          srcset="/img/kalians-right-l.png"
+                          type="image/png"
+                          media="(max-width: 700px)"
+                        />
+                        <img src="./img/kalians-right.png" alt="" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="count">1 <span>/</span> 3</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="price section" id="price">
+        <div class="container">
+          <div class="price__wrap">
+            <h1
+              class="price__title wow animate__fadeInUp"
+              data-wow-duration="2s"
+            >
+              Сколько
+              <span class="wow animate__fadeInUp" data-wow-duration="2s"
+                >Стоит?</span
+              >
+            </h1>
+            <div class="price__inner">
+              <div
+                class="price__item wow animate__fadeInUp"
+                data-wow-duration="1s"
+              >
+                <div class="price__item-img" data-wow-duration="3s">
+                  <picture>
+                    <source
+                      srcset="/img/price1-s.png"
+                      type="image/png"
+                      media="(max-width: 380px)"
+                    />
+
+                    <img
+                      class="wow animate__pulse"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      src="./img/price1.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div
+                  class="price__item-title wow animate__fadeInUp"
+                  data-wow-duration="1.2s"
+                >
+                  Экспресс дизайн
+                </div>
+                <div
+                  class="price__item-descr wow animate__fadeInUp"
+                  data-wow-duration="1.4s"
+                >
+                  Функциональное приложение с небольшим количеством экранов (до
+                  20), данных и действий, которые могут совершать пользователи.
+                </div>
+                <div
+                  class="price__item-price wow animate__fadeInUp"
+                  data-wow-duration="2s"
+                >
+                  от 200 000 ₽
+                </div>
+              </div>
+              <div
+                class="price__item wow animate__fadeInUp"
+                data-wow-duration="1.5s"
+              >
+                <div class="price__item-img price__item-img--pulse">
+                  <picture>
+                    <source
+                      srcset="/img/price2-s.png"
+                      type="image/png"
+                      media="(max-width: 380px)"
+                    />
+
+                    <img
+                      class="wow animate__pulse plane-s"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      data-wow-delay="0.3s"
+                      src="./img/price2.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div class="price__item-title">Средней сложности</div>
+                <div class="price__item-descr">
+                  Приложение с более сложной функциональностью. Оно может
+                  включать чаты, оплату и другие функции.Количество экранов до
+                  40.
+                </div>
+                <div
+                  class="price__item-price wow animate__fadeInUp"
+                  data-wow-duration="1.6s"
+                >
+                  от 400 000 ₽
+                </div>
+              </div>
+              <div
+                class="price__item wow animate__fadeInUp"
+                data-wow-duration="2s"
+              >
+                <div class="price__item-img">
+                  <picture>
+                    <source
+                      srcset="/img/price3-s.png"
+                      type="image/png"
+                      media="(max-width: 380px)"
+                    />
+
+                    <img
+                      class="wow animate__pulse rocet"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      data-wow-delay="0.6s"
+                      src="./img/price3.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div class="price__item-title">Сложный дизайн</div>
+                <div class="price__item-descr">
+                  Дизайн с использованием необычных элементов, уникальных
+                  иконок, анимаций и иллюстраций. Большое количество экранов.
+                </div>
+                <div
+                  class="price__item-price wow animate__fadeInUp"
+                  data-wow-duration="1.8s"
+                >
+                  от 600 000 ₽
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts section" id="contacts">
+        <div class="container">
+          <div class="contacts__wrap">
+            <div class="contacts__inner">
+              <div class="contacts__info">
+                <h1
+                  class="contacts__title wow animate__fadeInUp"
+                  data-wow-duration="1s"
+                >
+                  А чего тянуть? <br />
+                  <span class="wow animate__fadeInUp" data-wow-duration="2s"
+                    >Работаем?</span
+                  >
+                </h1>
+                <div class="contact__items-box">
+                  <div
+                    class="contacts__item wow animate__fadeInUp"
+                    data-wow-duration="1s"
+                  >
+                    <div class="contacts__item-descr">Телефон:</div>
+                    <div class="contacts__item-info">
+                      <a href="tel:+74993467554"></a>+7 (499) 346-75-54
+                    </div>
+                  </div>
+
+                  <div
+                    class="contacts__item wow animate__fadeInUp"
+                    data-wow-duration="1.5s"
+                  >
+                    <div class="contacts__item-descr">Почта:</div>
+                    <div class="contacts__item-info">
+                      <a href="mailto:artel-studio@yandex.ru"
+                        >artel-studio@yandex.ru</a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="contacts__item wow animate__fadeInUp"
+                    data-wow-duration="2s"
+                  >
+                    <div class="contacts__item-descr">Телеграм:</div>
+                    <div class="contacts__item-info">@codemagic</div>
+                  </div>
+                  <div
+                    class="contacts__item wow animate__fadeInUp"
+                    data-wow-duration="2.5s"
+                  >
+                    <div class="contacts__item-descr">WhatsApp:</div>
+                    <div class="contacts__item-info">+7 (923) 647-09-54</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="contacts__img wow animate__fadeInUp"
+                data-wow-duration="2s"
+              >
+                <img src="./img/contacts.png" alt="" />
+              </div>
+              <div
+                class="contacts__img contacts__img--dark wow animate__fadeInUp"
+                data-wow-duration="2s"
+              >
+                <img src="./img/contacts-dark.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__logo">
+              <a href="#">artel <span>;</span></a>
+            </div>
+            <div class="footer__nav">
+              <ul>
+                <li class="footer__nav-list">
+                  <a class="footer__nav-link" href="#">Главная</a>
+                </li>
+                <li class="footer__nav-list">
+                  <a class="footer__nav-link" href="#work">Наши работы</a>
+                </li>
+                <li class="footer__nav-list">
+                  <a class="footer__nav-link" href="#price">Цены</a>
+                </li>
+                <li class="footer__nav-list">
+                  <a class="footer__nav-link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__box">
+              <a class="behance" href="#">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2135 0H7.78548C3.27387 0 0 3.27484 0 7.78645V22.2135C0 26.7252 3.27387 30 7.78548 30H22.2135C26.7252 30 30 26.7252 30 22.2135V7.78645C30 3.27484 26.7252 0 22.2135 0ZM28.0645 22.2135C28.0645 25.6587 25.6587 28.0645 22.2135 28.0645H7.78548C4.34129 28.0645 1.93548 25.6587 1.93548 22.2135V7.78645C1.93548 4.34129 4.34129 1.93548 7.78548 1.93548H22.2135C25.6587 1.93548 28.0645 4.34129 28.0645 7.78645V22.2135Z"
+                    fill="#929AB1"
+                  />
+                  <path
+                    d="M14.192 15.9628C13.8049 15.4538 13.2504 15.0938 12.5314 14.8828C13.0898 14.606 13.5059 14.2431 13.7817 13.7941C14.0575 13.3451 14.1959 12.866 14.1959 12.357C14.1959 11.8102 14.0401 11.2867 13.7294 10.7854C13.4188 10.2841 12.9872 9.91344 12.4385 9.67247C11.8898 9.43151 11.1582 9.30957 10.2485 9.30957H5.78235V21.2167H10.322C11.0807 21.2167 11.7204 21.1509 12.243 21.0183C12.7656 20.8847 13.2001 20.6892 13.5465 20.4289C13.893 20.1696 14.1843 19.7999 14.4194 19.3209C14.6546 18.8409 14.7727 18.3231 14.7727 17.7657C14.7727 17.0718 14.5791 16.4718 14.192 15.9628ZM7.35783 14.3128V10.7157H9.73751C10.593 10.7157 11.1969 10.7709 11.5491 10.8812C11.9014 10.9925 12.1714 11.1976 12.3611 11.4986C12.5507 11.8005 12.6456 12.148 12.6456 12.5428C12.6456 12.9599 12.544 13.3063 12.3407 13.5822C12.1375 13.858 11.8356 14.0563 11.4349 14.1754C11.132 14.2673 10.6307 14.3138 9.93299 14.3138H7.35783V14.3128ZM12.9059 18.7683C12.7482 19.0586 12.5478 19.2783 12.3049 19.4312C12.0611 19.5822 11.7582 19.6905 11.3953 19.7554C11.1901 19.7931 10.832 19.8134 10.323 19.8134H7.35783V19.8125V15.7189H10.1111C10.8698 15.7189 11.4494 15.7847 11.853 15.9183C12.2565 16.0499 12.572 16.2812 12.7994 16.6083C13.0269 16.9354 13.1411 17.3215 13.1411 17.7657C13.1411 18.1451 13.0627 18.478 12.9059 18.7683Z"
+                    fill="#929AB1"
+                  />
+                  <path
+                    d="M24.219 16.8909C24.219 15.4664 23.8532 14.3622 23.1226 13.5764C22.391 12.7887 21.4494 12.3967 20.2958 12.3967C19.1045 12.3967 18.1368 12.7974 17.3887 13.5987C16.6416 14.4009 16.2681 15.5264 16.2681 16.978C16.2681 18.3803 16.6377 19.47 17.3761 20.248C18.1165 21.0241 19.1161 21.4122 20.379 21.4122C21.3797 21.4122 22.2023 21.1683 22.8477 20.6816C23.4923 20.1938 23.9326 19.5087 24.1706 18.6261L22.66 18.4412C22.4384 19.0577 22.1384 19.5077 21.7571 19.7893C21.3787 20.0709 20.9219 20.2112 20.3858 20.2112C19.6658 20.2112 19.0648 19.9596 18.5819 19.4564C18.101 18.9522 17.8339 18.2264 17.7787 17.28H24.2113C24.2171 17.1067 24.219 16.9771 24.219 16.8909ZM17.86 16.0761V16.0751C17.9074 15.3222 18.1619 14.7222 18.6177 14.2722C19.0765 13.8232 19.6416 13.5977 20.3113 13.5977C21.0536 13.5977 21.6574 13.8803 22.1229 14.4435C22.4248 14.8064 22.6097 15.3503 22.6755 16.0761H17.86Z"
+                    fill="#929AB1"
+                  />
+                  <path
+                    d="M22.6864 10.3745H17.8013L17.7887 11.5764H22.6951L22.6864 10.3745Z"
+                    fill="#929AB1"
+                  />
+                </svg>
+              </a>
+              <a class="instagram" href="#">
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.7084 0H8.94983C4.47198 0 0.829102 3.64288 0.829102 8.12073V21.8795C0.829102 26.3571 4.47198 30 8.94983 30H22.7086C27.1862 30 30.8291 26.3571 30.8291 21.8795V8.12073C30.8291 3.64288 27.1862 0 22.7084 0V0ZM29.0704 21.8795C29.0704 25.3873 26.2164 28.2413 22.7084 28.2413H8.94983C5.44176 28.2413 2.58783 25.3873 2.58783 21.8795V8.12073C2.58783 4.61266 5.44176 1.75873 8.94983 1.75873H22.7086C26.2164 1.75873 29.0704 4.61266 29.0704 8.12073V21.8795Z"
+                    fill="#929AB1"
+                  />
+                  <path
+                    d="M15.8294 6.79736C11.3062 6.79736 7.62646 10.4771 7.62646 15.0003C7.62646 19.5234 11.3062 23.2032 15.8294 23.2032C20.3525 23.2032 24.0323 19.5234 24.0323 15.0003C24.0323 10.4771 20.3525 6.79736 15.8294 6.79736ZM15.8294 21.4444C12.2762 21.4444 9.38519 18.5536 9.38519 15.0003C9.38519 11.4471 12.2762 8.55609 15.8294 8.55609C19.3828 8.55609 22.2735 11.4471 22.2735 15.0003C22.2735 18.5536 19.3828 21.4444 15.8294 21.4444Z"
+                    fill="#929AB1"
+                  />
+                  <path
+                    d="M24.2282 3.88428C22.8915 3.88428 21.8043 4.97169 21.8043 6.30814C21.8043 7.64481 22.8915 8.73222 24.2282 8.73222C25.5648 8.73222 26.6523 7.64481 26.6523 6.30814C26.6523 4.97147 25.5648 3.88428 24.2282 3.88428ZM24.2282 6.97327C23.8615 6.97327 23.563 6.6748 23.563 6.30814C23.563 5.94124 23.8615 5.64301 24.2282 5.64301C24.5951 5.64301 24.8935 5.94124 24.8935 6.30814C24.8935 6.6748 24.5951 6.97327 24.2282 6.97327Z"
+                    fill="#929AB1"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
